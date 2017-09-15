@@ -16,7 +16,7 @@
 
 cmake_minimum_required(VERSION 2.8)
 
-project(opendlv-logic-cfsd18-flowbend)
+project(opendlv-logic-cfsd18-groundspeed)
 
 include_directories(include)
 

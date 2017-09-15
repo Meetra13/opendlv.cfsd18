@@ -17,8 +17,8 @@
  * USA.
  */
 
-#ifndef LOGIC_CFSD18_FLOWBEND_FLOWBEND_HPP
-#define LOGIC_CFSD18_FLOWBEND_FLOWBEND_HPP
+#ifndef LOGIC_CFSD18_GROUNDSPEED_GROUNDSPEED_HPP
+#define LOGIC_CFSD18_GROUNDSPEED_GROUNDSPEED_HPP
 
 #include <map>
 
@@ -32,12 +32,12 @@ namespace opendlv {
 namespace logic {
 namespace cfsd18 {
 
-class FlowBend : public odcore::base::module::TimeTriggeredConferenceClientModule {
+class GroundSpeed : public odcore::base::module::TimeTriggeredConferenceClientModule {
  public:
-  FlowBend(int32_t const &, char **);
-  FlowBend(FlowBend const &) = delete;
-  FlowBend &operator=(FlowBend const &) = delete;
-  virtual ~FlowBend();
+  GroundSpeed(int32_t const &, char **);
+  GroundSpeed(GroundSpeed const &) = delete;
+  GroundSpeed &operator=(GroundSpeed const &) = delete;
+  virtual ~GroundSpeed();
   virtual void nextContainer(odcore::data::Container &);
 
  private:

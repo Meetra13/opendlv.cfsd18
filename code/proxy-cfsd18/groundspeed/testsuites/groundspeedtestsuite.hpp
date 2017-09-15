@@ -16,13 +16,13 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-#ifndef LOGIC_CFSD18_FLOWBEND_TESTSUITE_HPP
-#define LOGIC_CFSD18_FLOWBEND_TESTSUITE_HPP
+#ifndef LOGIC_CFSD18_GROUNDSPEED_TESTSUITE_HPP
+#define LOGIC_CFSD18_GROUNDSPEED_TESTSUITE_HPP
 
 #include "cxxtest/TestSuite.h"
 
 // Include local header files.
-#include "../include/flowbend.hpp"
+#include "../include/groundspeed.hpp"
 
 class WorldTest : public CxxTest::TestSuite {
    public:
